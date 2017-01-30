@@ -28,7 +28,7 @@ function main(target, bookSlug, apiKey) {
   const targets = {
     'job-status': jobStatus,
     'preview': preview,
-    'silent-publish': silentPublish
+    'publish-silent': publishSilent
   };
 
   if (!(target in targets)) {
@@ -81,7 +81,7 @@ function preview(client) {
   });
 }
 
-function silentPublish(client) {
+function publishSilent(client) {
   client.publish(function(err) {
     if(err) {
      return console.error(err);
