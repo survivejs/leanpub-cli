@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "lint": "eslint .",
-    "preversion": "npm run lint && npm test && git commit --allow-empty -am \"Update lib\""
+    "test": "npm run lint",
+    "preversion": "npm test && git commit --allow-empty -am \"Update lib\""
   },
   "bin": "./index.js",
   "dependencies": {
