@@ -2,7 +2,7 @@
   "name": "leanpub-cli",
   "description": "CLI client for Leanpub",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "lint": "eslint .",
     "preversion": "npm run lint && npm test && git commit --allow-empty -am \"Update lib\""
