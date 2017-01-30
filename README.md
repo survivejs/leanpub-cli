@@ -1,4 +1,4 @@
-[![build status](https://secure.travis-ci.org/survivejs/leanpub-cli.png)](http://travis-ci.org/survivejs/leanpub-cli)
+[![build status](https://secure.travis-ci.org/survivejs/leanpub-cli.svg)](http://travis-ci.org/survivejs/leanpub-cli)
 # leanpub-cli - CLI Client for Leanpub
 
 This CLI provides basic commands to deal with Leanpub.
