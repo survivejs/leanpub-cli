@@ -1,0 +1,32 @@
+{
+  "name": "leanpub-cli",
+  "description": "CLI Client for Leanpub",
+  "author": "Juho Vepsalainen <bebraw@gmail.com>",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "eslint .",
+    "preversion": "npm run lint && npm test && git commit --allow-empty -am \"Update lib\""
+  },
+  "bin": "./index.js",
+  "dependencies": {
+    "homedir": "^0.6.0",
+    "leanpub": "^0.1.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/survivejs/leanpub-cli.git"
+  },
+  "homepage": "https://github.com/survivejs/leanpub-cli",
+  "bugs": {
+    "url": "https://github.com/survivejs/leanpub-cli/issues"
+  },
+  "keywords": [
+    "leanpub",
+    "cli"
+  ],
+  "license": "MIT"
+}
