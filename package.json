@@ -1,6 +1,6 @@
 {
   "name": "leanpub-cli",
-  "description": "CLI Client for Leanpub",
+  "description": "CLI client for Leanpub",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.0.0",
   "scripts": {
