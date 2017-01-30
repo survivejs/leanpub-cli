@@ -1,4 +1,4 @@
-0.1.0 / 2017-01-29
+0.1.0 / 2017-01-30
 ==================
 
-  * Initial implementation
+  * Initial release.
